@@ -153,6 +153,79 @@ class Social extends Component {
                     />
                   </a>
                 </div>
+                <div
+                  className="swiper-slide overflow-hidden swiper-slide-active"
+                  style={{ width: "300px" }}
+                >
+                  <a href="#">
+                    <img
+                      className="img-fluid hover-scale"
+                      src="\static\images\1.jpg"
+                      alt=" "
+                    />
+                  </a>
+                </div>
+                <div
+                  className="swiper-slide overflow-hidden swiper-slide-next"
+                  style={{ width: "300px" }}
+                >
+                  <a href="#">
+                    <img
+                      className="img-fluid hover-scale"
+                      src="\static\images\2.jpg"
+                      alt=" "
+                    />
+                  </a>
+                </div>
+                <div
+                  className="swiper-slide overflow-hidden"
+                  style={{ width: "300px" }}
+                >
+                  <a href="#">
+                    <img
+                      className="img-fluid hover-scale"
+                      src="\static\images\3.jpg"
+                      alt=" "
+                    />
+                  </a>
+                </div>
+                <div
+                  className="swiper-slide overflow-hidden"
+                  style={{ width: "300px" }}
+                >
+                  <a href="#">
+                    <img
+                      className="img-fluid hover-scale"
+                      src="\static\images\4.jpg"
+                      alt=" "
+                    />
+                  </a>
+                </div>
+                <div
+                  className="swiper-slide overflow-hidden"
+                  style={{ width: "300px" }}
+                >
+                  <a href="#">
+                    <img
+                      className="img-fluid hover-scale"
+                      src="\static\images\5.jpg"
+                      alt=" "
+                    />
+                  </a>
+                </div>
+                <div
+                  className="swiper-slide overflow-hidden"
+                  style={{ width: "300px" }}
+                >
+                  <a href="#">
+                    <img
+                      className="img-fluid hover-scale"
+                      src="\static\images\6.jpg"
+                      alt=" "
+                    />
+                  </a>
+                </div>
+                
               </div>
               <span
                 className="swiper-notification"
