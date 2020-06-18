@@ -25,7 +25,7 @@ class Navbar extends Component {
           {/* Collapsible content */}
           <div className="collapse navbar-collapse" id="basicExampleNav">
             {/* Links */}
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav mx-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="#">
                   Home
