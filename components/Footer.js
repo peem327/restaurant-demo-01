@@ -5,129 +5,90 @@ class Footer extends Component {
     return (
       <div>
         {/* Footer */}
-        <div className="page-footer font-small  pt-4">
+        <footer className="page-footer font-small unique-color-dark">
           {/* Footer Links */}
-          <div className="container-fluid text-center text-md-left">
+          <div className="container text-center text-md-left ">
             {/* Grid row */}
             <div className="row">
               {/* Grid column */}
-              <div className="col-md-6 mt-md-0 mt-3 Social">
+              <div className="col-md-4 col-lg-5 col-xl-4 mx-auto mb-4 my-3">
                 {/* Content */}
-                <h5 className="text-uppercase">Footer Content</h5>
+                <h5 className="text-uppercase font-weight-bold">Subscribe</h5>
+                <hr
+                  className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                  style={{ width: 60 }}
+                />
                 <p>
-                  Here you can use rows and columns to organize your footer
-                  content.
+                  Register and get notified about all the news & updates before it gets too late
                 </p>
-                <div className="form-row">
-                  <div className="col-md-8 ml-auto">
-                    <div className="input-group input-group-lg z-depth-1">
-                      <div className="input-group-prepend">
-                        <span className="input-group-text rgba-white-light border-0">
-                          <i className="fa fa-envelope white-text" />
-                        </span>
-                      </div>
-                      <input
-                        type="email"
-                        name="EMAIL"
-                        className="form-control form-control-lg rgba-white-light white-text border-0 z-depth-0"
-                        placeholder="Email Address"
-                      />
-                    </div>
+                <form className="input-group">
+                  <input
+                    type="text"
+                    className="form-control form-control rgba-white-light white-text border-0 z-depth-0"
+                    placeholder="Your email"
+                    aria-label="Your email"
+                    aria-describedby="basic-addon2"
+                  />
+                  <div className="input-group-append">
+                    <button
+                      className="btn btn-sm btn-info my-0"
+                      type="button"
+                    >
+                      Sign up
+                    </button>
                   </div>
-                  <div class="col-md mr-auto">
-                    <button class="btn btn-info btn-block ">Subscribe</button>
-                  </div>
-                </div>
-              </div>
-
-              {/* Grid column */}
-              <hr className="clearfix w-100 d-md-none pb-3" />
-              {/* Grid column */}
-              <div className="col-md-3 mb-md-0 mb-3">
-                {/* Links */}
-                <h5 className="text-uppercase">Explore</h5>
-                <ul className="list-unstyled">
-                  <li>
-                    <p>Browse Recipes</p>
-                  </li>
-                  <li>
-                    <p>Submit Recipes</p>
-                  </li>
-                  <li>
-                    <p>Out Chefs</p>
-                  </li>
-                  <li>
-                    <p>Latest News</p>
-                  </li>
-                  <li>
-                    <p>Contact</p>
-                  </li>
-                </ul>
+                </form>
               </div>
               {/* Grid column */}
               {/* Grid column */}
-              <div className="col-md-3 mb-md-0 mb-3">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-4 my-3">
                 {/* Links */}
-                <h5 className="text-uppercase mb-3">Contact</h5>
-                <ul className="list-unstyled">
-                  <li>
-                    <div className="row">
-                      <div className="col-2">
-                        <img
-                          src="\static\images\location.png"
-                          alt=""
-                          width="32"
-                          height="32"
-                          title="Bootstrap"
-                        />
-                      </div>
-                      <div className="col-10">
-                        <p>
-                          787 Mark View Street, <br /> New Town, California{" "}
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="row mb-3">
-                      <div className="col-2">
-                        <img
-                          src="\static\images\phone (1).png"
-                          alt=""
-                          width="32"
-                          height="32"
-                          title="Bootstrap"
-                        />
-                      </div>
-                      <div className="col-10">
-                        <p>1 212 485-4512</p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div className="row">
-                      <div className="col-2">
-                        <img
-                          src="\static\images\mail.png"
-                          alt=""
-                          width="32"
-                          height="32"
-                          title="Bootstrap"
-                        />
-                      </div>
-                      <div className="col-10">
-                        {" "}
-                        <p>Support@example.com</p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                <h6 className="text-uppercase font-weight-bold">
+                  Useful links
+                </h6>
+                <hr
+                  className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                  style={{ width: 60 }}
+                />
+                <p>
+                  <a href="#!">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!">Become an Affiliate</a>
+                </p>
+                <p>
+                  <a href="#!">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!">Help</a>
+                </p>
+              </div>
+              {/* Grid column */}
+              {/* Grid column */}
+              <div className="col-md-4 col-lg-4 col-xl-4 mx-auto mb-md-0 mb-4 my-3">
+                {/* Links */}
+                <h6 className="text-uppercase font-weight-bold">Contact</h6>
+                <hr
+                  className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto"
+                  style={{ width: 60 }}
+                />
+                <p>
+                  <i className="fas fa-home mr-3" /> New York, NY 10012, US
+                </p>
+                <p>
+                  <i className="fas fa-envelope mr-3" /> info@example.com
+                </p>
+                <p>
+                  <i className="fas fa-phone mr-3" /> + 01 234 567 88
+                </p>
+                <p>
+                  <i className="fas fa-print mr-3" /> + 01 234 567 89
+                </p>
               </div>
               {/* Grid column */}
             </div>
-            {/* Grid row */}
           </div>
-        </div>
+        </footer>
       </div>
     );
   }
