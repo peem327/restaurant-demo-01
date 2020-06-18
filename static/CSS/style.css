@@ -1,0 +1,108 @@
+
+/* Recipes */
+.container.card-body.card-body-cascade.text-center.Recipes {
+    margin-top: -17em;
+    /* background-color: #fff;
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+    border-radius: 1em; */
+}
+
+#Title-Recipes{
+    color: white;
+}
+
+
+.card{
+    border: none!important;
+}
+
+.Recipes-Card:hover{
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+@media(max-width:767px){
+    .container.card-body.card-body-cascade.text-center.Recipes {
+        margin-top: -15em;
+    }
+}
+
+@media(max-width:640px){
+    .container.card-body.card-body-cascade.text-center.Recipes {
+        margin-top: -12em;
+    }
+}
+
+@media(max-width:500px){
+    .container.card-body.card-body-cascade.text-center.Recipes {
+        margin-top: 0em;
+    }
+    h3.font-weight.py-2 ,strong.Latest-Recipes{
+        color: #000;
+    }
+
+}
+
+/* Category */
+.Category:hover{
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,0.18), 0 4px 15px 0 rgba(0,0,0,0.15);
+}
+
+/* .Social */
+#instagram {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;};
+
+.card-img-overlay a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5rem;
+    text-align: center;
+}
+
+.swiper-container {
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.column-carosel-btn {
+    position: absolute!important;
+    z-index: 100000;
+    margin-top: 5em;
+}
+
+.social{
+    color: white;
+}
+
+/* Footer */
+.page-footer{
+    background-color: black;
+    color: silver;
+}
+
+@font-face{
+    font-family:'Lobster-Regular';
+    src: url('/static/fonts/Lobster-Regular.ttf');
+}
+
+.font-Regular{
+    font-family:'Lobster-Regular';
+    color: goldenrod;
+}
+
+.font-Regular:hover{
+    color:rgba(255, 217, 0, 0.904);
+}
+
+
