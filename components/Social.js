@@ -36,7 +36,7 @@ class Social extends Component {
                     <iframe
                       width={560}
                       height={315}
-                      src="https://www.youtube.com/embed/-pgJ5TO4RbI?start=9"
+                      src="https://www.youtube.com/embed/y-36VBE2U_E"
                       frameBorder={0}
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -225,7 +225,6 @@ class Social extends Component {
                     />
                   </a>
                 </div>
-                
               </div>
               <span
                 className="swiper-notification"
