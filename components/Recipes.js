@@ -8,7 +8,7 @@ class Recipes extends Component {
           {/*Grid column*/}
           <div className="col-md-12">
             {/* Card */}
-            <div className="card card-cascade wider reverse my-4">
+            <div className="card-cascade wider  my-4">
               {/* Card image */}
               <div className="view view-cascade overlay">
                 <img
@@ -24,14 +24,16 @@ class Recipes extends Component {
                     <div className="card-body">
                       <h3 className=" py-2 font-Regular">recent Recipes</h3>
                       <h1 className="card-title">
-                        <strong className="Latest-Recipes" id="Title-Recipes">Latest Recipes</strong>
+                        <strong className="Latest-Recipes" id="Title-Recipes">
+                          Latest Recipes
+                        </strong>
                       </h1>
                     </div>
                   </div>
 
                   <div className="row">
                     <div className="col-md-4 Recipes-Card">
-                      <div className="card">
+                      <div className="card card-detail-recieps">
                         <img
                           src="\static\images\1.jpg"
                           className="card-img-top"
@@ -241,16 +243,16 @@ class Recipes extends Component {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        {/* View All Recipes */}
-        <div className="container my-5">
-          <div className="row">
-            <div className="col" style={{ textAlign: "center" }}>
-              <button type="button" className="btn btn-info btn-lg">
-                View All Recipes
-              </button>
+              {/* View All Recipes */}
+              <div className="container my-5">
+                <div className="row">
+                  <div className="col" style={{ textAlign: "center" }}>
+                    <button type="button" className="btn btn-info btn-lg">
+                      View All Recipes
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
