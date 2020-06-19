@@ -12,7 +12,7 @@ class Header extends Component {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="\static\images\1.jpg"
+                src="/static/images/1.jpg"
                 className="d-block w-100"
                 alt="..."
               />
@@ -27,7 +27,7 @@ class Header extends Component {
             </div>
             <div className="carousel-item">
               <img
-                src="\static\images\2.jpg"
+                src="/static/images/2.jpg"
                 className="d-block w-100"
                 alt="..."
               />
@@ -42,7 +42,7 @@ class Header extends Component {
             </div>
             <div className="carousel-item">
               <img
-                src="\static\images\3.jpg"
+              src="/static/images/3.jpg"
                 className="d-block w-100"
                 alt="..."
               />

@@ -25,22 +25,22 @@
 }
 
 @media(max-width:767px){
-    .container.card-body.card-body-cascade.text-center.Recipes {
+    .Recipes {
         margin-top: -15em;
     }
 }
 
 @media(max-width:640px){
-    .container.card-body.card-body-cascade.text-center.Recipes {
+    .Recipes {
         margin-top: -12em;
     }
 }
 
 @media(max-width:500px){
-    .container.card-body.card-body-cascade.text-center.Recipes {
+    .Recipes {
         margin-top: 0em;
     }
-    h3.font-weight.py-2 ,strong.Latest-Recipes{
+    strong#Title-Recipes{
         color: #000;
     }
 
